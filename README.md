@@ -13,7 +13,7 @@ pip install numpy scipy matplotlib
 python main.py
 ```
 
-Runs 10 M2 tidal cycles (~5 days) at 30-second timesteps, takes about 1–2 minutes. Outputs go to `./outputs/` and include time series, spatial snapshots, and plots of M2/M4/M6 amplitudes and phases along the basin.
+Runs 10 M2 tidal cycles (~5 days) at 30-second timesteps. Outputs go to `./outputs/` and include time series, spatial snapshots, and plots of M2/M4/M6 amplitudes and phases along the basin.
 
 The script checks the Courant number on startup — if it's ≥ 1 the scheme will be unstable, so reduce `deltaT`.
 
