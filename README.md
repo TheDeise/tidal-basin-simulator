@@ -9,7 +9,7 @@ When a tidal wave enters a shallow estuary or basin, friction and changes in cro
 ## Running it
 
 ```bash
-pip install -r requirements.txt
+pip install numpy scipy matplotlib
 python main.py
 ```
 
