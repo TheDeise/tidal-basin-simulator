@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+
+# Outputs
+outputs/
+
+# Spyder
+.spyproject/
+
+# OS
+.DS_Store
+Thumbs.db
